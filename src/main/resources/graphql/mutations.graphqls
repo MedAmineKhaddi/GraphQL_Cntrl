@@ -1,0 +1,10 @@
+type Mutation {
+    Savecomputer(computer: ComputerDtls): Computer
+}
+
+input ComputerDtls {
+    proc: String,
+    ram: Int,
+    hardDrive: Int,
+    price: Float,
+}

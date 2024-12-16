@@ -1,0 +1,6 @@
+type Computer {
+    proc: String,
+    ram: Int,
+    hardDrive: Int,
+    price: Float,
+}
